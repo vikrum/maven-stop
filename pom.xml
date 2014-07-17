@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>firebase-client-jvm</artifactId>
+  <name>Firebase JVM Client</name>
+  <description>Firebase JVM Client</description>
+  <groupId>com.firebase.client</groupId>
+  <packaging>pom</packaging>
+  <version>1.0.8</version>
+  <organization>
+    <name>Firebase</name>
+    <url>https://www.firebase.com/</url>
+  </organization>
+  <url>https://www.firebase.com/docs/java-quickstart.html</url>
+  <!--
+
+  Note: This artifact has been superseded by com.firebase:firebase-client 
+
+  Please use this instead:
+
+  <dependency>
+    <groupId>com.firebase</groupId>
+    <artifactId>firebase-client</artifactId>
+  </dependency>
+
+  Thank you,
+  Firebase
+  -->
+  <scm>
+    <connection>scm:git:git@github.com:firebase</connection>
+    <developerConnection>scm:git:git@github.com:firebase</developerConnection>
+    <url>https://github.com/firebase</url>
+    <tag>x</tag>
+  </scm>
+  <!-- The next two sections are experimental, for release purposes -->
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://firebase.mit-license.org</url>
+    </license>
+  </licenses>
+</project>
