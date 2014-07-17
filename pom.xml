@@ -6,7 +6,7 @@
   <description>Firebase JVM Client</description>
   <groupId>com.firebase.client</groupId>
   <packaging>pom</packaging>
-  <version>1.0.8</version>
+  <version>1.0.8-SNAPSHOT</version>
   <organization>
     <name>Firebase</name>
     <url>https://www.firebase.com/</url>
@@ -27,9 +27,9 @@
   Firebase
   -->
   <scm>
-    <connection>scm:git:git@github.com:firebase</connection>
-    <developerConnection>scm:git:git@github.com:firebase</developerConnection>
-    <url>https://github.com/firebase</url>
+    <connection>scm:git:git@github.com:vikrum/maven-stop.git</connection>
+    <developerConnection>scm:git:git@github.com:vikrum/maven-stop.git</developerConnection>
+    <url>https://github.com/vikrum/maven-stop</url>
     <tag>x</tag>
   </scm>
   <!-- The next two sections are experimental, for release purposes -->
