@@ -6,7 +6,7 @@
   <description>Firebase JVM Client</description>
   <groupId>com.firebase.client</groupId>
   <packaging>pom</packaging>
-  <version>1.0.8-SNAPSHOT</version>
+  <version>1.0.8</version>
   <organization>
     <name>Firebase</name>
     <url>https://www.firebase.com/</url>
