@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>firebase-client-jvm</artifactId>
-  <name>Firebase JVM Client</name>
-  <description>Firebase JVM Client</description>
-  <groupId>com.firebase.client</groupId>
+  <groupId>com.google.firebase</groupId>
+  <artifactId>firebase-server-sdk</artifactId>
+  <version>3.0.2-SNAPSHOT</version>
+  <name>Firebase Server SDK Library</name>
+  <description>Firebase Server SDK Library</description>
   <packaging>pom</packaging>
-  <version>1.0.9-SNAPSHOT</version>
   <organization>
     <name>Firebase</name>
     <url>https://www.firebase.com/</url>
@@ -14,13 +14,13 @@
   <url>https://www.firebase.com/docs/java-quickstart.html</url>
   <!--
 
-  Note: This artifact has been superseded by com.firebase:firebase-client 
+  Note: This artifact has been superseded by com.google.firebase:firebase-admin
 
   Please use this instead:
 
   <dependency>
-    <groupId>com.firebase</groupId>
-    <artifactId>firebase-client</artifactId>
+    <groupId>com.google.firebase</groupId>
+    <artifactId>firebase-admin</artifactId>
   </dependency>
 
   Thank you,
@@ -32,7 +32,6 @@
     <url>https://github.com/vikrum/maven-stop</url>
     <tag>x</tag>
   </scm>
-  <!-- The next two sections are experimental, for release purposes -->
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
@@ -40,8 +39,8 @@
   </parent>
   <licenses>
     <license>
-      <name>MIT</name>
-      <url>http://firebase.mit-license.org</url>
+      <name>Commercial</name>
+      <url>https://www.firebase.com/terms/terms-of-service.html</url>
     </license>
   </licenses>
 </project>
