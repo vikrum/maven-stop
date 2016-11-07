@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.google.firebase</groupId>
   <artifactId>firebase-server-sdk</artifactId>
-  <version>3.0.2</version>
+  <version>3.0.3-SNAPSHOT</version>
   <name>Firebase Server SDK Library</name>
   <description>Firebase Server SDK Library</description>
   <packaging>pom</packaging>
